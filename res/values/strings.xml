@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="APP_NAME">Whatshots</string>
+    <string name="EXECUTING">Đang xử lý</string>
+    <string name="ERROR_OBJECT_NOT_EXISTED">Không tìm thấy thông tin đối tượng</string>
+    <string name="DELETE">Xóa</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">Hủy</string>
+    <string name="TEXT_RE_LOGIN_ERROR">Có lỗi xảy ra khi kết nối tới hệ thống vui lòng đăng nhập lại</string>
+    <string name="ERROR_COMMON">Có lỗi xảy ra, vui lòng thử lại.</string>
+    <string name="ERROR">Error</string>
+    <string name="ERROR_START_END_TIME_EVENT">Event end time must be greater than or equal to the start time of the event</string>
+    <string name="LOADING">Đang tải ...</string>
+    <string name="CANT_LOAD_MORE">Không thể xem thêm</string>
+    <string name="CHOOSE_FROM_PHONE">Chọn từ điện thoại</string>
+    <string name="TAKE_NEW_PHOTO">Chụp hình mới</string>
+    <string name="DELETE_PHOTO">Xóa ảnh</string>
+    <string name="MENU_UPDATE_EVENT">C\u00E2\u0323p nh\u00E2\u0323t s\u01B0\u0323 ki\u00EA\u0323n</string>
+    <string name="MENU_EVENT">S\u01B0\u0323 ki\u00EA\u0323n</string>
+    <string name="MENU_CARE">Quan t\u00E2m</string>
+    <string name="MENU_HOT">\u0110ang hot</string>
+    <string name="MENU_SPORT">Th\u00EA\u0309 thao</string>
+    <string name="MENU_MUSIC">\u00C2m nha\u0323c</string>
+    <string name="MENU_CONFERENCE">H\u00F4\u0323i tha\u0301o</string>
+    <string name="IMG_MAX_SIZE">Kích thước ảnh không được quá</string>
+    <string name="IMG_INVALID_FORMAT">Upload ảnh không đúng định dạng (*.bmp, *.gif, *.jpg, *.jpeg, *.png)</string>
+    <string name="ERROR_OUT_MEMORY">Hiện điện thoại của bạn không đủ bộ nhớ để thực hiện tính năng này. Vui lòng thử lại sau!</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <string name="PLEASE_ENTER_TITLE">Please enter event</string>
+    <string name="BEGIN">B\u1EAFt \u0111\u1EA7u</string>
+    <string name="TODAY">H\u00F4m nay</string>
+    <string name="TIME_END">Gi\u1EDD k\u1EBFt th\u00FAc</string>
+    <string name="ADD_NEW">Th\u00EAm m\u1EDBi</string>
+    <string name="EVENT_NAME">T\u00EAn s\u1EF1 ki\u00EAn</string>
+    <string name="CATEGORY">Danh m\u1EE5c</string>
+    <string name="PLACE">\u0110\u1ECBa \u0111i\u1EC3m</string>
+    <string name="DESCRIPTION">M\u00F4 t\u1EA3</string>
+    <string name="EVENT_CREATE_NEW">T\u1EA1o m\u1EDBi s\u1EF1 ki\u1EC7n</string>
+    <string name="EVENT_NOT_FOUND">Event not found</string>
+    <string name="ADD_NEW_EVENT">Create new event</string>
+    <string name="PLACE_NOT_FOUND">Place not found</string>
+    <string name="USE_ADDRESS">Use address</string>
+    
+    <string name="SELECT_PLACE">Chọn địa điểm</string>
+    <string name="ENTER_PLACE">Nhập tên địa điểm</string>
+    <string name="ENTER_FRIEND_NAME">Enter name friend here</string>
+    <string name="YOUR_EVENT_QUESTION">Bạn đang ở sự kiện nào?</string>
+    <string name="ENTER_EVENT_NAME">Nhập tên sự kiện</string>
+    <string name="PARTICIPANTS">participants</string>
+    
+    
+    <string name="PLACE_DEFAULT">Nhà Văn Hóa Phụ Nữ </string>
+    <string name="SHARE_UP">Chia sẻ lên</string>
+    <string name="REPORT_EVENT">Tường thuật sự kiện</string>
+    <string name="INFO">Thông tin</string>
+    <string name="INVITED">Invited</string>
+    <string name="REPORT">Tường thuật</string>
+    <string name="PHOTO">Hình ảnh</string>
+    <string name="START_TXT">Bắt đầu</string>
+    <string name="END_TXT">Kết thúc</string>
+    <string name="STAYING_HERE">Đang ở đây</string>
+    <string name="COMMENT">Bình luận</string>
+    <string name="LIKE">Thích</string>
+    <string name="TRACKING">Theo dõi</string>
+    <string name="JOIN">Tham gia</string>
+    <string name="INVITE_FRIEND">Mời bạn bè</string>
+    <string name="HINT_TXT_REPORT">Tường thuật về sự kiện này</string>
+    <string name="INTERNET_CONNECTION_ERROR">Internet Connection Error</string>
+    <string name="SETUP_CONNECTION">Please set up connection</string>
+    <string name="GPS_STATUS">GPS Status</string>
+    <string name="REQUIRE_ENABLE_GPS">Couldnt get location information. Please enable GPS</string>
+    <string name="MEMBER_JOIN_LIST">The join list</string>
+    <string name="FRIEND_LIST">The friend list</string>
+    <string name="COMMON_FRIEND">common friend</string>
+    <string name="YOU_CAN_FAMILIAR">You can familiar?</string>
+    <string name="CONNECT_FACEBOOK">Connect to facebook</string>
+    <string name="SETTING_CONNECTION">Setting connection</string>
+    <string name="SEARCH">Search</string>
+    <string name="LOADING_PLACE">Loading Places...</string>
+    
+    <string name="update">update</string>
+    <string name="connected">Connected:</string>
+    <string name="default_share_facebook">Default share Check-in on facebook</string>
+    <string name="default_report_facebook">Default report Check-in on facebook</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="report">report</string>
+    <string name="add_friend">Add friend</string>
+</resources>

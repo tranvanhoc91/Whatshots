@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" >
+    
+     <ScrollView android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_above="@+id/layout3"
+        >
+        
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" 
+		    android:background="@drawable/im_main_item_bg"
+		    android:layout_marginTop="115dp"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_marginBottom="10dp"
+		    android:padding="5dp"
+		    android:layout_gravity="center"
+		    >
+		    
+		    <LinearLayout 
+		        android:layout_width="fill_parent" android:layout_height="wrap_content"
+		        android:orientation="horizontal" android:paddingTop="5dp"
+		        >
+		    	<ImageView 
+		    	    android:id="@+id/thumbEvent" android:src="@drawable/avatar"
+		    	    android:layout_width="90dp" android:layout_height="90dp"
+		    	    android:paddingLeft="5dp"
+		    	    android:scaleType="fitXY"
+		    	    />    
+		    	    
+		    	<LinearLayout 
+		    	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    	    android:orientation="vertical"  
+		    	    android:layout_marginLeft="5dp" android:paddingBottom="10dp"
+		    	    >
+		    	    
+		    	    <TextView 
+		    	        android:id="@+id/titleEvent"
+		    	        android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    	        android:text="Dem nhac 'MTV Exit' voi nhieu ngoi sao tren the gioi"
+		    	        android:textColor="#222121"
+		    	        android:textSize="15sp"
+		    	        android:textStyle="bold"
+		    	        android:maxLines="2"
+		    	        />
+		    	    
+		    	    <LinearLayout 
+		    	        android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    	        android:orientation="horizontal" 
+		    	        android:layout_marginTop="5dp"
+		    	        >
+		    	        <TextView 
+		    	            android:text="@string/START_TXT"
+		    	            android:layout_width="wrap_content" android:layout_height="wrap_content"
+		    	            android:textColor="#656363" android:textSize="14sp"
+		    	            android:textStyle="bold" android:lines="1"
+		    	            />
+		    	        <TextView android:id="@+id/timeStart"
+			    	        android:layout_width="fill_parent" android:layout_height="wrap_content"
+			    	        android:lines="1" android:text="20:00h Hôm nay"
+			    	        android:layout_marginLeft="8dp"
+		    	        	/>
+		    	    </LinearLayout>
+		    	    <LinearLayout 
+		    	        android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    	        android:orientation="horizontal" 
+		    	        >
+		    	        <TextView 
+		    	            android:text="@string/END_TXT"
+		    	            android:layout_width="wrap_content" android:layout_height="wrap_content"
+		    	            android:textColor="#656363" android:textSize="14sp"
+		    	            android:textStyle="bold"
+		    	            />
+		    	        <TextView android:id="@+id/timeStart"
+			    	        android:layout_width="fill_parent" android:layout_height="wrap_content"
+			    	        android:lines="1" android:text="20:30h 31/12/2012"
+			    	        android:layout_marginLeft="8dp"
+		    	        	/>
+		    	    </LinearLayout>
+		    	   
+		    	</LinearLayout>
+		    	
+		    </LinearLayout>
+		    
+		
+		  	<Button
+			      android:id="@+id/add_new_event"
+			      android:layout_width="match_parent"
+			      android:layout_height="45dip"
+			      android:background="@drawable/im_bg_button"
+			      android:text="@string/STAYING_HERE" android:textSize="20dip" 
+			      android:layout_marginTop="20dp"
+			      android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+			      android:textStyle="bold" android:textColor="@color/WHITE_COLOR" />
+		
+		  	<!-- button theo doi, tham gia, moi ket ban -->
+		  	<LinearLayout 
+		  	    android:layout_width="fill_parent" android:layout_height="40dp"
+		  	    android:layout_marginTop="10dp"
+		  	    android:layout_marginBottom="10dp"
+		  	    android:orientation="horizontal"
+		  	    android:gravity="center_horizontal"
+		  	    >
+		
+		  	    <LinearLayout
+		  	        android:layout_width="wrap_content"
+		  	        android:layout_height="30dp"
+		  	        android:layout_gravity="center"
+		  	        android:layout_marginRight="5dp"
+		  	        android:background="@drawable/bg_textbox"
+		  	        android:paddingLeft="5dp" android:paddingRight="5dp"
+		  	        android:orientation="horizontal" >
+		  	    	
+		    	    <ImageView android:layout_width="0dp"
+		    	        android:layout_height="wrap_content"
+		    	        android:src="@drawable/ic_rss"
+		    	        android:layout_gravity="center_vertical"
+		    	        android:layout_weight="1"
+		    	        />
+		    	    <TextView 
+		    	        android:layout_width="wrap_content"
+		    	        android:layout_height="wrap_content"
+		    	        android:text="@string/TRACKING" android:textColor="#111111"
+		    	        android:gravity="center_vertical" android:layout_gravity="center_vertical"
+		    	        android:paddingLeft="5dp"
+		    	        android:layout_weight="1"
+		    	        android:textSize="13sp"
+		    	        />
+		  	    </LinearLayout>
+		  	    <LinearLayout
+		  	        android:layout_width="wrap_content"
+		  	        android:layout_height="30dp"
+		  	        android:layout_gravity="center"
+		  	        android:layout_marginRight="5dp"
+		  	        android:background="@drawable/bg_textbox"
+		  	        android:paddingLeft="5dp" android:paddingRight="5dp"
+		  	        android:orientation="horizontal" >
+		  	    	
+		    	    <ImageView android:layout_width="0dp"
+		    	        android:layout_height="wrap_content"
+		    	        android:src="@drawable/ic_join"
+		    	        android:layout_gravity="center_vertical"
+		    	        android:layout_weight="1"
+		    	        />
+		    	    <TextView 
+		    	        android:layout_width="wrap_content"
+		    	        android:layout_height="wrap_content"
+		    	        android:text="@string/JOIN" android:textColor="#111111"
+		    	        android:gravity="center_vertical" android:layout_gravity="center_vertical"
+		    	        android:paddingLeft="5dp"
+		    	        android:layout_weight="1"
+		    	        android:textSize="13sp"
+		    	        />
+		  	    </LinearLayout>
+		  	    
+		  	    <LinearLayout
+		  	        android:layout_width="wrap_content"
+		  	        android:layout_height="30dp"
+		  	        android:layout_gravity="center"
+		  	        android:layout_marginRight="5dp"
+		  	        android:background="@drawable/bg_textbox"
+		  	        android:paddingLeft="5dp" android:paddingRight="5dp"
+		  	        android:orientation="horizontal" >
+		  	    	
+		    	    <ImageView android:layout_width="0dp"
+		    	        android:layout_height="wrap_content"
+		    	        android:src="@drawable/ic_friend"
+		    	        android:layout_gravity="center_vertical"
+		    	        android:layout_weight="1"
+		    	        />
+		    	    <TextView 
+		    	        android:layout_width="wrap_content"
+		    	        android:layout_height="wrap_content"
+		    	        android:text="@string/INVITE_FRIEND" android:textColor="#111111"
+		    	        android:gravity="center_vertical" android:layout_gravity="center_vertical"
+		    	        android:paddingLeft="5dp"
+		    	        android:textSize="13sp"
+		    	        android:layout_weight="1"
+		    	        />
+		  	    </LinearLayout>
+		  	    
+		  	</LinearLayout>
+		  	
+		  	<!-- line -->
+		  	<ImageView 
+		  	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+		  	    android:src="@drawable/line2"
+		  	    />
+		  	
+		  	<!-- event place -->
+		    <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="3dp"
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        >
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		            >
+		            <TextView
+		                android:id="@+id/placeName"
+		                android:layout_width="272dp"
+		                android:layout_height="wrap_content"
+		                android:lines="1"
+		                android:paddingLeft="5dp"
+		                android:text="White house"
+		                android:textColor="#292828"
+		                android:textSize="14sp" />
+		
+		            <TextView android:id="@+id/address"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:text="240 Hoàng Văn Thụ,quận 1,TpHCM" android:textColor="#6a6a6a"
+		                android:textSize="14sp" android:lines="1"
+		                android:paddingLeft="5dp"
+		                />
+		        </LinearLayout>
+		        
+		        <LinearLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent">
+		
+		            <ImageView
+		                android:id="@drawable/ic_show_details"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:src="@drawable/ic_show_details" android:layout_gravity="center_vertical|center_horizontal"/>
+		        </LinearLayout>
+		    </LinearLayout>
+		    
+		    <!-- line -->
+		  	<ImageView 
+		  	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+		  	    android:src="@drawable/line2"
+		  	    />
+		  	
+		  	<!-- so nguoi tham gia -->
+		  	<LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        >
+		        <TextView android:id="@+id/address"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="500 nguời đã tham gia" android:textColor="#6a6a6a"
+		            android:textSize="14sp" android:lines="1"
+		            android:paddingLeft="5dp"
+		            />
+		    </LinearLayout>
+		    
+		  	<!-- line -->
+		  	<ImageView 
+		  	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+		  	    android:src="@drawable/line2"
+		  	    />
+		  	
+		  	<!-- The textview which display info about event -->
+		  	<TextView android:id="@+id/info"
+		  	    android:layout_marginTop="10dp"
+		  	    android:layout_width="fill_parent"
+		  	    android:layout_height="wrap_content"
+		  	    android:textColor="#111111" android:textSize="14sp"
+		  	    android:paddingLeft="5dp" android:paddingBottom="5dp"
+		  	    android:text="Chiếc Lambretta LN125 nổi tiếng đã quá thân thuộc với giớ trẻ Việt Nam, cuộc thi Lambretta Face Contest được tổ chức để chọn lựa ra gương mặt đại diện cho mẫu xe sành điệu và cá tính này."
+		  	    />
+		</LinearLayout>
+
+	</ScrollView>
+	
+    <!-- footer -->
+	<LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_gravity="bottom" 
+        android:background="@drawable/im_bg_add_new_event" 
+        android:gravity="center"
+        android:layout_alignParentBottom="true" >
+
+        <ImageButton 
+            android:id="@+id/submit"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/avatar"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_vertical"
+            />
+        
+        <EditText 
+            android:id="@+id/editText"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:hint="@string/HINT_TXT_REPORT"
+            android:background="@drawable/im_bg_textbox"
+            />
+        
+    </LinearLayout>
+</RelativeLayout>

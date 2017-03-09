@@ -1,0 +1,81 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+                android:background="@drawable/bg_whathots" 
+    
+     > 
+    <com.markupartist.android.widget.ActionBar
+		 android:id="@+id/actionbar"
+		 style="@style/ActionBar"
+		 />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_search_txt"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtEventName"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_weight="0.56"
+            android:hint="@string/ENTER_EVENT_NAME"
+            android:paddingTop="5dp" android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:ems="10" >
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_search_txt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eventNotFound"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/EVENT_NOT_FOUND"
+            android:gravity="center_horizontal"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            />
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ADD_NEW_EVENT"
+            android:gravity="center_horizontal"
+            android:textColor="@color/BLACK_COLOR"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/listEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.viettel" android:versionCode="10"
+	android:versionName="1.0">
+    <supports-screens android:anyDensity="true" android:xlargeScreens="true" android:largeScreens="true" android:smallScreens="false" android:resizeable="true" android:normalScreens="true"/>
+	<application android:debuggable="true" android:icon="@drawable/icon"
+		android:label="@string/APP_NAME" android:name=".common.KunKunInfo" >
+		
+		<activity android:name=".view.MainHome.MainHome" android:theme="@android:style/Theme.Light.NoTitleBar">
+		    			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:configChanges="keyboardHidden|orientation"
+			android:name=".view.common.CommonView" android:theme="@android:style/Theme.Light.NoTitleBar">
+
+		</activity>
+		<activity android:name="com.whathots.menu.MenuActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustPan"></activity>
+		<activity android:name=".view.MainHome.CreateNewEvent" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+		<activity android:name=".view.MainHome.SelectEventPlace"></activity>
+		<activity android:name=".view.MainHome.SearchEvent"></activity>
+		<activity android:name=".view.MainHome.ReportEvent"></activity>
+		<activity android:name=".view.MainHome.EventDetail"></activity>
+		<activity android:name=".view.MainHome.EventInfoTab"></activity>
+		<activity android:name=".view.MainHome.EventPhotoTab"></activity>
+		<activity android:name=".view.MainHome.EventReportTab"></activity>
+		<activity android:name=".view.MainHome.MemberList"></activity>
+		<activity android:name=".view.MainHome.DetailReportEvent"></activity>
+		<activity android:name=".view.MainHome.UserEvent"></activity>
+		<activity android:name=".view.MainHome.UserEventInvitedTab"></activity>
+		<activity android:name=".view.MainHome.UserEventJoinTab"></activity>
+		<activity android:name=".view.MainHome.UserEventTrackingTab"></activity>
+		
+		
+		<activity android:name=".view.MainHome.EventCategory"></activity>
+		<activity android:name=".view.MainHome.UserPage"></activity>
+		<activity android:name=".view.MainHome.FriendList"></activity>
+		<activity android:name=".view.MainHome.AddFriendList"></activity>
+		<activity android:name=".view.MainHome.SettingConnection"></activity>
+	</application>
+
+	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.INTERNET">
+	</uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+	</uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_SMS">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_CONTACTS">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE">
+	</uses-permission>
+	
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+	<uses-sdk android:minSdkVersion="8"/>
+  <uses-permission android:name="android.permission.SET_DEBUG_APP"></uses-permission>
+	
+</manifest>

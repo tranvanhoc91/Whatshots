@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/viewParent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_whathots" 
+        > 
+       	
+       	<com.markupartist.android.widget.ActionBar
+	        android:id="@+id/actionbar"
+	        style="@style/ActionBar"
+	        android:layout_alignParentTop ="true"
+        />
+       	
+       	<LinearLayout 
+       	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+       	    android:background="@drawable/im_main_item_bg"
+       	    android:layout_marginTop="5dp" 
+       	    android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+       	    android:layout_marginBottom="10dp"
+       	    android:orientation="vertical"
+       	    >
+		       	    
+       	    <LinearLayout 
+       	        android:layout_width="fill_parent"
+       	        android:layout_height="wrap_content"
+       	        android:orientation="horizontal"
+       	        android:layout_marginTop="3dp"
+       	        >
+       	        
+       	        <ImageView 
+       	            android:layout_width="32dip"
+       	            android:layout_height="32dip"
+       	            android:src="@drawable/ic_facebook_32"
+       	            android:scaleType="fitXY"
+       	            android:layout_gravity="top"
+       	            />
+       	        
+       	        <LinearLayout 
+       	            android:layout_width="fill_parent"
+       	            android:layout_height="wrap_content"
+       	            android:orientation="vertical"
+       	            >
+       	            
+       	            <TextView 
+	       	            android:layout_width="fill_parent"
+	       	            android:layout_height="wrap_content"
+	       	            android:gravity="clip_vertical"
+	       	            android:text="Bằng việc kết nối với tài khoản 
+	Facebook bạn có thể dễ dàng chia sẻ các hoạt động của bạn trên Whatshot như Check-in vào sự kiện, tường thuật sự kiện lên Facebook "
+						android:textColor="#222222"
+						android:layout_marginLeft="5dp"
+	       	            />
+       	            
+       	            <Button 
+       	                android:layout_width="fill_parent" android:layout_height="wrap_content"
+       	                android:background="@drawable/bg_wh_button"
+       	                android:text="@string/CONNECT_FACEBOOK"
+       	                android:layout_marginTop="10dp"
+       	                android:textColor="@color/WHITE_COLOR"
+       	                android:textStyle="bold"
+       	                android:textSize="20dp"
+       	                />
+       	            
+       	        </LinearLayout>
+       	        
+       	    </LinearLayout>
+       	    
+   	    </LinearLayout>
+
+</LinearLayout>

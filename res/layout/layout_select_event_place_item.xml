@@ -1,0 +1,57 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"         
+        android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="fill_parent"         
+        android:layout_height="wrap_content" android:background="@drawable/im_main_item_bg" android:layout_marginTop="5dip" android:layout_marginBottom="5dip" android:layout_marginLeft="5dip" android:layout_marginRight="5dip">
+        
+        <ImageView
+            android:id="@+id/icon_place"
+            android:layout_width="56dip"
+            android:layout_height="56dip"
+            android:background="@drawable/bg_place_view"
+            android:src="@drawable/ic_coffe" 
+            android:scaleType="centerInside"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_marginLeft="5dip" android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Dinh Doc Lap" android:textStyle="bold"
+                android:lines="1"
+                android:gravity="clip_vertical"
+                android:layout_gravity="clip_vertical"
+                android:textColor="#707070" android:textSize="14dip" android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="253 Hoang Van Thu, Tan Binh district, Thanh pho Ho Chi Minh city" 
+                android:textColor="#b3b3b3" 
+                android:textSize="14dip" 
+                android:layout_marginLeft="2dp"
+                android:maxLines="2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@drawable/ic_show_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_show_details" android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    

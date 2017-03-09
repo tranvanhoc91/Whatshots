@@ -1,0 +1,91 @@
+# view res/layout/horz_scroll_app.xml #generated:6
+# view res/layout/layout_18.xml #generated:15
+# view res/layout/layout_create_new_event.xml #generated:3
+# view res/layout/layout_detail_event.xml #generated:15
+# view res/layout/layout_detail_report_event.xml #generated:8
+# view res/layout/layout_event_by_category.xml #generated:9
+# view res/layout/layout_friend_list.xml #generated:9
+# view res/layout/layout_member_list.xml #generated:9
+# view res/layout/layout_report_event.xml #generated:9
+# view res/layout/layout_search_event.xml #generated:9
+# view res/layout/layout_select_event_place.xml #generated:9
+# view res/layout/layout_setting_connected.xml #generated:9
+# view res/layout/layout_setting_connection.xml #generated:9
+# view res/layout/layout_user_page.xml #generated:9
+-keep class com.markupartist.android.widget.ActionBar { <init>(...); }
+
+# view res/layout/actionbar.xml #generated:98
+-keep class com.markupartist.android.widget.ScrollingTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:5
+-keep class com.viettel.common.KunKunInfo { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.viettel.view.MainHome.AddFriendList { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.viettel.view.MainHome.CreateNewEvent { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.viettel.view.MainHome.DetailReportEvent { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.viettel.view.MainHome.EventCategory { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.viettel.view.MainHome.EventDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.viettel.view.MainHome.EventInfoTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.viettel.view.MainHome.EventPhotoTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.viettel.view.MainHome.EventReportTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.viettel.view.MainHome.FriendList { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class com.viettel.view.MainHome.MainHome { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.viettel.view.MainHome.MemberList { <init>(...); }
+
+# view res/layout/horz_scroll_with_list_menu.xml #generated:2
+-keep class com.viettel.view.MainHome.MyHorizontalScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.viettel.view.MainHome.ReportEvent { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.viettel.view.MainHome.SearchEvent { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.viettel.view.MainHome.SelectEventPlace { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.viettel.view.MainHome.SettingConnection { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.viettel.view.MainHome.UserEvent { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.viettel.view.MainHome.UserEventInvitedTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.viettel.view.MainHome.UserEventJoinTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.viettel.view.MainHome.UserEventTrackingTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.viettel.view.MainHome.UserPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.viettel.view.common.CommonView { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.whathots.menu.MenuActivity { <init>(...); }
+

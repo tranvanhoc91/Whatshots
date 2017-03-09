@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/inner_content"
+    android:layout_width="1dp" android:layout_height="1dp" android:orientation="vertical" android:background="#ffffffff"
+    >
+    
+   <com.markupartist.android.widget.ActionBar
+	    android:id="@+id/actionbar"
+	    style="@style/ActionBar"
+	    />
+        
+    <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/bg_whathots" android:cacheColorHint="#00000000">
+    </ListView>
+    
+</LinearLayout>

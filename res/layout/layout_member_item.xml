@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"         
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical"
+    >
+
+	    <LinearLayout android:layout_width="fill_parent"   
+	        android:id="@+id/content"      
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dip" android:layout_marginBottom="5dip" 
+	        android:layout_marginLeft="5dip" android:layout_marginRight="5dip" 
+	        android:gravity="center_vertical" >
+	        
+	        <ImageView
+	            android:id="@+id/img_Avatar"
+	            android:layout_width="64dip"
+	            android:layout_height="67dip"
+	            android:layout_marginLeft="5dp"
+	            android:src="@drawable/avatar" android:layout_gravity="center_vertical"/>
+	
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" android:layout_marginLeft="5dip" 
+	            android:layout_weight="1" android:gravity="center_vertical" >
+	
+	            <TextView
+	                android:id="@+id/txtName"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:text="Taylor Swift" 
+	                android:textStyle="bold" android:textColor="#10929f" 
+	                android:textSize="18dip" android:maxLines="1"/>
+	
+	            <TextView
+	                android:id="@+id/txtProfile"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:text="Cong ty ABC" 
+	                android:textColor="#666666" android:textSize="16dip" 
+	                android:maxLines="2" android:paddingTop="0dp" />
+	
+	        </LinearLayout>
+	        
+	        
+	         
+	    </LinearLayout>
+	    
+	    <ImageView 
+	  	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+	  	    android:src="@drawable/line2"
+	  	    android:layout_marginBottom="5dp"
+	  	    android:layout_marginTop="5dp"
+	  	    android:layout_gravity="center"
+	  	    android:scaleType="fitXY"
+	  	    android:layout_alignParentBottom="true"
+	  	    /> 
+</LinearLayout>
+    

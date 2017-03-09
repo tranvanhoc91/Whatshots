@@ -1,0 +1,134 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_whathots" 
+        android:id="@+id/viewParent"
+         > 
+         
+        <com.markupartist.android.widget.ActionBar
+	        android:id="@+id/actionbar"
+	        style="@style/ActionBar"
+	        android:layout_alignParentTop ="true"
+        />
+    
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_search_txt"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/place_icon" />
+
+            <TextView
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.42"
+                android:paddingLeft="10dp"
+                android:text="Liveshow Hoai Linh"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+            
+            <ImageView
+                android:id="@drawable/ic_show_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/next_icon" 
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                style="@drawable/conner"
+                android:background="@drawable/bg_edittext"
+                android:layout_weight="0.01" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_button"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/camera_32_icon" />
+
+                <Button
+                    android:id="@+id/btnSend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.43"
+                    android:background="@drawable/im_bg_blue_button"
+                    android:text="Gửi"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/conner"
+            android:gravity="center_vertical"
+            android:padding="10dp" >
+
+            <ImageButton
+                android:id="@+id/btnZingme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/zingme_48_icon" />
+
+            <ImageButton
+                android:id="@+id/btnFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/btnZingme"
+                android:layout_marginRight="14dp"
+                android:layout_toLeftOf="@+id/btnZingme"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/facebook_48_icon" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:text="@string/SHARE_UP"
+                android:textColor="@color/WHITE_COLOR"
+                android:textSize="16sp" />
+            
+            
+        </RelativeLayout>
+
+    </LinearLayout>
+    

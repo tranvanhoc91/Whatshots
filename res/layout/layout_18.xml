@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_whathots" 
+    xmlns:app="http://schemas.android.com/apk/res/com.viettel">
+
+    <!-- actionbar -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <com.markupartist.android.widget.ActionBar
+	        android:id="@+id/actionbar"
+	        style="@style/ActionBar"
+	        android:layout_alignParentTop  ="true"
+	        />
+        
+    </LinearLayout>
+    
+    <!-- Tab -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+        
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            >
+            <LinearLayout 
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:orientation="vertical" 
+                >
+                <TabWidget  android:id="@android:id/tabs"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:background="#FFF"
+                   />
+				<View android:layout_width="fill_parent" android:layout_height="1dip"
+					android:background="#FFF" />
+				<FrameLayout android:id="@android:id/tabcontent"
+					android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            
+        </TabHost>
+        
+    </LinearLayout>
+        
+</LinearLayout>

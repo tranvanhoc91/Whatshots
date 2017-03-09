@@ -1,0 +1,31 @@
+<resources>
+    <color name="comment">#777777</color>
+    <color name="TITLE_BLUE_COLOR">#0587b9</color>
+    <color name="GRAY_COLOR">#B4B4B4</color>
+    <color name="LIGHT_GRAY_COLOR">#888a85</color>
+    <color name="GREEN_COLOR">#00FF00</color>
+    <color name="RED_COLOR">#ff0000</color>
+    <color name="GREY">#dddddd</color>
+    <color name="BLACK_COLOR">#000000</color>
+    <color name="GREY_HINT">#9B9B9B</color>
+    <color name="WHITE_COLOR">#FFFFFF</color>
+    <color name="TRANSPARENT">#00000000</color>
+    <color name="OGRANGE_COLOR">#ff8a3c</color>
+    <color name="BACK_GROUND_FB">#333333</color>
+    <color name="actionbar_separator">#414141</color>
+    <color name="actionbar_background_start">#333333</color>
+    <color name="actionbar_background_end">#4b4a4a</color>
+	<color name="transparent">#00000000</color>
+	
+	
+    <!--
+    <color name="actionbar_separator">#8B1A1A</color>
+    <color name="actionbar_background_start">#8B1A1A</color> 
+    <color name="actionbar_background_end">#CD2626</color>
+    -->
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+    <color name="BACK_GROUND_MENU_COLOR">#333333</color>
+    <color name="text_place_default">#676767</color>
+</resources>

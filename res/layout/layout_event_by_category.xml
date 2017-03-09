@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/viewParent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_whathots" 
+        > 
+       	
+       	<com.markupartist.android.widget.ActionBar
+	        android:id="@+id/actionbar"
+	        style="@style/ActionBar"
+	        android:layout_alignParentTop ="true"
+        />
+
+       	<ScrollView android:id="@+id/scrollView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:layout_below ="@+id/actionbar"
+	        >
+	        
+       	    
+	        <LinearLayout 
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:orientation="vertical"
+	            >
+	            
+		       	<LinearLayout 
+		       	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+		       	    android:background="@drawable/im_main_item_bg"
+		       	    android:layout_marginTop="5dp" 
+		       	    android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+		       	    >
+		
+		       	    <FrameLayout 
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:orientation="horizontal"
+				        android:gravity="center_horizontal"
+				        >
+				        
+		       	        
+		       	        <ImageView 
+					        android:id="@+id/photoEvent"
+					        android:layout_width="fill_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="center"
+					        android:background="@drawable/bg_imageview_big"
+					        android:scaleType="fitXY"
+				        	/>
+		       	        
+		       	        <LinearLayout 
+		       	            android:layout_width="fill_parent"
+		       	            android:layout_height="wrap_content"
+		       	            android:orientation="vertical"
+		       	            android:background="@drawable/bg_default1"
+		       	            android:layout_gravity="bottom"
+		       	            android:padding="3dp"
+		       	            >
+		       	            		
+		       	            <TextView
+		       	                android:id="@+id/eventName"
+		       	                android:layout_width="match_parent"
+		       	                android:layout_height="wrap_content"
+		       	                android:text="Le hoi Halloween huyen bi"
+		       	                android:textColor="@color/WHITE_COLOR"
+		       	                android:textSize="15sp"
+		       	                android:paddingLeft="5dp"
+		       	                android:textStyle="bold" />
+		       	            
+		       	            <LinearLayout 
+		       	                android:layout_width="fill_parent" android:layout_height="wrap_content"
+		       	                android:orientation="horizontal"
+		       	                >
+		       	                
+		       	                <TextView
+			       	                android:id="@+id/eventName"
+			       	                android:layout_width="wrap_content"
+			       	                android:layout_height="wrap_content"
+			       	                android:text="Tai:"
+			       	                android:textColor="@color/WHITE_COLOR"
+			       	                android:textSize="14sp"
+			       	                android:paddingLeft="5dp"
+			       	                android:textStyle="normal" />
+		       	                
+		       	                 <TextView
+			       	                android:id="@+id/eventPlace"
+			       	                android:layout_width="match_parent"
+			       	                android:layout_height="wrap_content"
+			       	                android:text="Cong vien Dam Sen"
+			       	                android:textColor="@color/WHITE_COLOR"
+			       	                android:textSize="14sp"
+			       	                android:paddingLeft="10dp"
+			       	                android:textStyle="normal" />
+		       	                 
+		       	            </LinearLayout>
+		       	            
+		       	            <TextView
+		       	                android:id="@+id/eventTime"
+		       	                android:layout_width="match_parent"
+		       	                android:layout_height="wrap_content"
+		       	                android:text="16h-20h"
+		       	                android:textColor="@color/WHITE_COLOR"
+		       	                android:textSize="13sp"
+		       	                android:paddingLeft="5dp"
+		       	                android:textStyle="normal" />
+		       	            
+		       	             <LinearLayout 
+		       	                android:layout_width="fill_parent" android:layout_height="wrap_content"
+		       	                android:orientation="horizontal"
+		       	                android:layout_marginTop="3dp"
+		       	                >
+		       	                
+		       	                <ImageView
+			       	                android:id="@+id/eventName"
+			       	                android:layout_width="wrap_content"
+			       	                android:layout_height="wrap_content"
+			       	                android:textColor="@color/WHITE_COLOR"
+			       	                android:paddingLeft="5dp"
+			       	                android:src="@drawable/ic_join_16"
+			       	                android:layout_gravity="center_vertical"
+			       	                />
+		       	                
+		       	                 <TextView
+			       	                android:id="@+id/eventNumJoin"
+			       	                android:layout_width="match_parent"
+			       	                android:layout_height="wrap_content"
+			       	                android:text="500 nguoi tham gia"
+			       	                android:textColor="@color/WHITE_COLOR"
+			       	                android:textSize="13sp"
+			       	                android:paddingLeft="5dp"
+			       	                android:textStyle="normal" />
+		       	                 
+		       	            </LinearLayout>
+		       	            
+		       	        </LinearLayout>
+		       	        
+		       	     </FrameLayout>
+		        
+		       	</LinearLayout>
+		       	
+		       	<LinearLayout
+		       	    android:layout_width="fill_parent"
+		       	    android:layout_height="fill_parent"
+		       	    android:layout_marginBottom="5dp"
+		       	    android:layout_marginLeft="5dp"
+		       	    android:layout_marginRight="5dp"
+		       	    android:background="@drawable/im_main_item_bg" >
+
+		       	    <GridView
+		       	        android:id="@+id/gridViewEvent"
+		       	        android:layout_width="fill_parent"
+		       	        android:layout_height="200dp"
+		       	        android:gravity="center_horizontal"
+		       	        android:horizontalSpacing="5dp"
+		       	        android:numColumns="2"
+		       	        android:verticalSpacing="5dp" >
+
+		       	    </GridView>
+		       	</LinearLayout>
+		       	
+	       	</LinearLayout>
+	       	
+       	</ScrollView>
+</LinearLayout>

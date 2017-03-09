@@ -1,0 +1,93 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"         
+    android:layout_height="wrap_content">
+    
+    <LinearLayout android:layout_width="fill_parent"         
+        android:layout_height="wrap_content" android:background="@drawable/im_main_item_bg" 
+        android:layout_marginTop="5dip" android:layout_marginBottom="5dip" 
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dip" android:layout_marginRight="5dip">
+        
+       <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:src="@drawable/avatar" android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_marginLeft="5dip" 
+            android:gravity="center_vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dam Vinh Hung" android:textStyle="bold" 
+                android:textColor="#10929f" android:textSize="14dip" android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ho Chi Minh" android:textColor="#222222" 
+                android:textSize="13dip" android:maxLines="2"/>
+
+            <TextView
+                android:id="@+id/txtNumCommonFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 ban chung" android:textColor="#6e6e6e" 
+                android:textSize="12dip" android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_button2"
+            android:layout_height="40dip">
+
+            
+            <ImageButton
+                android:id="@+id/btnAddFriend"
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:src="@drawable/ic_add_friend2" 
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp" android:paddingRight="10dp"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+            
+            <ImageView
+                android:id="@drawable/ic_show_details"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:src="@drawable/border_horz_1px_2" 
+                android:scaleType="fitXY"
+                android:layout_marginLeft="3dp" android:layout_marginRight="3dp"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+            
+            <ImageButton
+                android:id="@+id/btnClose"
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:src="@drawable/ic_close" 
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="10dp" android:paddingRight="10dp"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+    

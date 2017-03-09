@@ -1,0 +1,12 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@drawable/ic_menu_bg_separator" android:layout_marginTop="10dip" android:layout_marginBottom="10dip" android:paddingTop="10dip" android:paddingBottom="10dip">
+
+        <TextView
+            android:id="@+id/txt_main_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" android:layout_marginLeft="5dip" android:textStyle="bold" android:layout_gravity="center_vertical" android:textColor="@color/WHITE_COLOR" android:textSize="18dip"/>
+
+    </LinearLayout>
